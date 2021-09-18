@@ -1,1 +1,2 @@
-mono TerrariaServer.exe && n && 3 && 1 && 1 && world && random  
+
+mono TerrariaServer.exe < echo -e "n\3\1\1\world\random"
