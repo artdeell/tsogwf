@@ -37,4 +37,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: server run
-        run: cd && chmod +x 1start.sh && ./1start.sh
+        run: chmod +x start.sh && ./start.sh
