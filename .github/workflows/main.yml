@@ -38,4 +38,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: server run
         shell: bash
-        run: mono TerrariaServer.exe < echo -e "3\n1\n1\nworld\nrandom\n"
+        run: echo -e "3\n1\n1\nworld\nrandom\n" | mono TerrariaServer.exe
