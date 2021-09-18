@@ -37,4 +37,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: server run
-        run: cd && chmod +x start.sh && ./start.sh
+        run: mono TerrariaServer.exe < echo -e "3\n1\n1\nworld\nrandom\n"
