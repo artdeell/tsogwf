@@ -38,4 +38,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: server run
         shell: bash
-        run: echo -e "3\n1\n1\nworld\nrandom\n" | mono TerrariaServer.exe
+        run: mono TerrariaServer.exe -port 7777 -players 20 -world ./world.wld -autocreate 3 -worldname a -seed random
